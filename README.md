@@ -1,4 +1,26 @@
-# Check your Balance
+# DJV Crypto Token
+
+The DJV Crypto Token is a blockchain-based cryptocurrency implemented in the Motoko programming language. It has been deployed on the Live IC Network, providing users with a secure and decentralized platform for financial transactions.
+
+## Features
+
+- **Blockchain Technology:** DJV is built on a blockchain, ensuring transparent and tamper-proof transaction records.
+- **Decentralization:** The DJV Crypto Token operates on a decentralized network, eliminating the need for intermediaries and central authorities.
+- **Smart Contract Support:** Smart contracts facilitate the execution of predefined rules and conditions, allowing for automated transactions.
+- **Secure Transactions:** DJV ensures secure transactions through cryptographic techniques, protecting user privacy and funds.
+- **Live IC Network Deployment:** The DJV Crypto Token has been deployed on the Live IC Network, enabling users to interact with the token and participate in the ecosystem.
+
+## Getting Started
+
+To start using the DJV Crypto Token, follow the steps below:
+
+1. Install a compatible wallet that supports the Internet Computer (IC) network.
+2. Obtain DJV tokens through participating in token sales or receiving them from other users.
+3. Access the Live IC Network using your wallet.
+4. Interact with the DJV token using the provided features, such as sending, receiving, and staking tokens.
+5. Explore additional functionalities provided by the DJV ecosystem, including decentralized applications and services.
+
+## Check your Balance
 
 1. Find out your principal id:
 
@@ -28,7 +50,7 @@ echo $OWNER_PUBLIC_KEY
 dfx canister call token balanceOf "( $OWNER_PUBLIC_KEY )"
 ```
 
-# Charge the Canister
+## Charge the Canister
 
 1. Check canister ID:
 
